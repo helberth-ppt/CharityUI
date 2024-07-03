@@ -1,0 +1,13 @@
+1. Run Installer.but file
+2. Send the installation_date.log file
+3. Try to make a TR choosing some charity entity in charity list screen
+4. Select Yes in charity confirmation screen
+5. Send a picture of the donation receipt
+
+A new reg string is created in:
+[HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\CCSopStep\SOP_STEPTBL\ASAI]
+"DonationReceipt"="True"
+
+For disable donation printing receipt in kiosk put "DonationReceipt" to "False"
+
+
