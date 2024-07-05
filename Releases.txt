@@ -1,2 +1,20 @@
 06-26-2024 HE
-Adding steps and screens for Charity Confirm function.
+New functionality:
+    - Adding steps and screens for Charity Confirm function.
+    - Adding printing donation receipt
+Changes:
+    - The step modified was CCSTPTAB.TicketRedemptionFlowLight
+    - Dotnet library modified: ASAICashInFW.dll
+    - Java libraries modified:
+        ASAICashInFW.jar: new entries
+        ccservicefw-ASAICashInMainStep-steps.jar
+        ccservicefw-ASAIShortpayPrintingStep-steps.jar
+        cctransactionfw-ASAICashInMainStep-steps.jar
+        cctransactionfw-ASAIShortpayPrintingStep-steps.jar
+    - Propierties created:
+        PROPERTY_ASAICHARITYNO_CASH
+        PROPERTY_ASAICHARITYNO_CHANGE
+    - New windows registry entry:
+        [HKEY_LOCAL_MACHINE\SOFTWARE\WOW6432Node\Wincor Nixdorf\ProTopas\CurrentVersion\CCSopStep\SOP_STEPTBL\ASAI]
+        "DonationReceipt"="True"
+    

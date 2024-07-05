@@ -1,0 +1,2 @@
+name=Feature_CharityScreen_HE
+version=1.0.0
